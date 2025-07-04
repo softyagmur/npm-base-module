@@ -1,0 +1,18 @@
+{
+  "name": "softyagmur",
+  "version": "1.0.1",
+  "description": "Coming soon!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "bun src/test/test.ts",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "softyagmur",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
